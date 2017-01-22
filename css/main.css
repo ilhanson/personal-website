@@ -1,0 +1,176 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 24px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+p {
+    margin: 0 0 24px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+a {
+    color: #000;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #333;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    color: #000;
+    background-color: #fff;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 90px;
+}
+
+
+.intro .intro-body .intro-text {
+    font-size: 26px;
+    text-align: justify;
+}
+
+.header-mail {
+    font-size: 18px;
+    font-weight: 400;
+    display: inline;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #000;
+    color: #000;
+    background-color: transparent;
+    width: 170px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #000;
+    outline: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+.btn-mail {
+    display: none;
+}
+
+ul.banner-social-buttons {
+    display: table;
+    margin: 30px auto;
+}
+
+@media(max-width:767px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 20px;
+    }
+
+    p {
+        margin: 0 0 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 60px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    ul.banner-social-buttons {
+        display: inline-block;
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    ul.banner-social-buttons li {
+        display: inline-block;
+        margin: 4px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+
+    .btn-mail {
+        display: inline-block;
+    }
+
+    .header-mail {
+        display: none;
+    }
+}
+
+
+::-moz-selection {
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
